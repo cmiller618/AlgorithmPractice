@@ -1,22 +1,45 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class Radix_Sort {
     public static void main(String[] args) {
 
+        List<Integer> numbers = new ArrayList<>();
+        Random rand = new Random();
+        for(int i = 0; i < 10; i++){
+            numbers.add(rand.nextInt(1000) + 1);
+        }
+        System.out.println(numbers);
+
+        List<Integer> sorted = new ArrayList<>();
+        sorted = radixSort(numbers);
+        System.out.println(sorted);
     }
 
     private static List<Integer> radixSort(List<Integer> numbers){
         int most = mostDigits(numbers);
-        List<Integer> newNumbers = new ArrayList<>();
-        List<List<Integer>> digits = new ArrayList<>(10);
+        List<List<Integer>> digits = new ArrayList<>();
+
+        for (int i = 0; i < 10; i++){
+            digits.add(i, new ArrayList<>());
+        }
 
         for(int i = 0; i < most; i++){
-            for(int j = 0; j < numbers.size(); j++) {
-                int digit = getDigit(numbers.get(j), i);
-                newNumbers.add(numbers.get(j));
-                digits.get(digit).set(digit, newNumbers.get(j));
+
+            for (Integer number : numbers) {
+
+                int digit = getDigit(number, i);
+                List<Integer> bucket = digits.get(digit);
+                digits.set(digit, bucket).add(number);
             }
+            numbers.clear();
+            List<Integer> bucket = new ArrayList<>();
+            for(int j = 0; j < digits.size(); j++){
+                numbers.addAll(digits.get(j).stream().toList());
+                digits.get(j).clear();
+            }
+
         }
         return numbers;
 
