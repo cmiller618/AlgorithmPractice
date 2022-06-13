@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Capstone" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Capstone-master" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/temp-dir" vcs="Git" />
   </component>
 </project>
