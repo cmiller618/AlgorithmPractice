@@ -3,25 +3,36 @@ package datastructurePractice;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MaxBinaryHeap {
-    private List<Integer> values;
+public class PriorityQueue {
+    private List<Node> values;
 
-    public MaxBinaryHeap(){
-        List<Integer> values = new ArrayList<>();
+    public PriorityQueue(){
+        List<Node> values = new ArrayList<>();
     }
 
-    public void insert(int number){
-        this.values.add(number);
+    class Node{
+        private int value;
+        private int priority;
+
+        public Node(int value, int priority){
+            this.value = value;
+            this.priority = priority;
+        }
+    }
+
+    public void enqueue(int value, int priority){
+        Node newNode = new Node(value, priority);
+        this.values.add(newNode);
         this.bubbleUp();
     }
 
     public void bubbleUp(){
         int index = this.values.size() - 1;
-        int number = this.values.get(index);
+        Node number = this.values.get(index);
         while(index > 0){
             int parentIndex = (int) Math.floor((index - 1) / 2);
-            int parent = this.values.get(parentIndex);
-            if (number <= parent) break;
+            Node parent = this.values.get(parentIndex);
+            if (number.priority >= parent.priority) break;
             this.values.set(parentIndex, number);
             this.values.set(index, parent);
             index = parentIndex;
@@ -29,8 +40,8 @@ public class MaxBinaryHeap {
         }
     }
 
-    public int extractMax(){
-        int root = this.values.get(0);
+    public Node dequeue(){
+        Node root = this.values.get(0);
         this.values.set(0, this.values.get(this.values.size() - 1));
         this.values.set(this.values.size() - 1, root);
         if(this.values.size() > 0) {
@@ -43,22 +54,23 @@ public class MaxBinaryHeap {
     public void sinkDown(){
         int parentIndex = 0;
         int length = this.values.size();
-        int parent = this.values.get(parentIndex);
+        Node parent = this.values.get(parentIndex);
         while(true) {
             int left = 2 * parentIndex + 1;
             int right = 2 * parentIndex + 2;
-            int leftChild = 0, rightChild = 0;
+            Node leftChild = null;
+            Node rightChild = null;
             int swap = -1;
 
             if(left < length){
                 leftChild = this.values.get(left);
-                if (leftChild > parent){
+                if (leftChild.priority < parent.priority){
                     swap = left;
                 }
             }
             if(right < length){
                 rightChild = this.values.get(right);
-                if ((swap == -1 && rightChild > parent) || (swap > -1 && rightChild > leftChild)){
+                if ((swap == -1 && rightChild.priority < parent.priority) || (swap > -1 && rightChild.priority < leftChild.priority)){
                     swap = right;
                 }
             }
