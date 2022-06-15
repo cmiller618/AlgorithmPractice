@@ -4,16 +4,10 @@ word3 = "tacocat"
 
 
 def checkPalindrome(word):
-    end_letter = len(word) - 1
-    start_letter = 0
+    if word == word[::-1]:
+        return True
 
-    while end_letter > start_letter:
-        if word[end_letter] != word[start_letter]:
-            return False
-        end_letter -= 1
-        start_letter += 1
-
-    return True
+    return False
 
 
 print(checkPalindrome(word1))
