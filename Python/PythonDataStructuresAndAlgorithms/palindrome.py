@@ -4,10 +4,7 @@ word3 = "tacocat"
 
 
 def checkPalindrome(word):
-    if word == word[::-1]:
-        return True
-
-    return False
+    return word == word[::-1]
 
 
 print(checkPalindrome(word1))
