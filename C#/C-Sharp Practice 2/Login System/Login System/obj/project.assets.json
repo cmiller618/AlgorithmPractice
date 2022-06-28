@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chris\\Documents\\count\\C#\\C-Sharp Practice 2\\C-Sharp Practice 2\\C-Sharp Practice 2.csproj",
-      "projectName": "C-Sharp Practice 2",
-      "projectPath": "C:\\Users\\chris\\Documents\\count\\C#\\C-Sharp Practice 2\\C-Sharp Practice 2\\C-Sharp Practice 2.csproj",
+      "projectUniqueName": "C:\\Users\\chris\\Documents\\count\\C#\\C-Sharp Practice 2\\Login System\\Login System\\Login System.csproj",
+      "projectName": "Login System",
+      "projectPath": "C:\\Users\\chris\\Documents\\count\\C#\\C-Sharp Practice 2\\Login System\\Login System\\Login System.csproj",
       "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chris\\Documents\\count\\C#\\C-Sharp Practice 2\\C-Sharp Practice 2\\obj\\",
+      "outputPath": "C:\\Users\\chris\\Documents\\count\\C#\\C-Sharp Practice 2\\Login System\\Login System\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
