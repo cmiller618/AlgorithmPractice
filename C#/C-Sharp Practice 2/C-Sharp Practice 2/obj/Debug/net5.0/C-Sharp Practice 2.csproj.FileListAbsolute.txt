@@ -1,0 +1,16 @@
+C:\Users\chris\source\repos\C-Sharp Practice 2\C-Sharp Practice 2\obj\Debug\net5.0\C-Sharp Practice 2.csproj.AssemblyReference.cache
+C:\Users\chris\source\repos\C-Sharp Practice 2\C-Sharp Practice 2\obj\Debug\net5.0\C-Sharp Practice 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chris\source\repos\C-Sharp Practice 2\C-Sharp Practice 2\obj\Debug\net5.0\C-Sharp Practice 2.AssemblyInfoInputs.cache
+C:\Users\chris\source\repos\C-Sharp Practice 2\C-Sharp Practice 2\obj\Debug\net5.0\C-Sharp Practice 2.AssemblyInfo.cs
+C:\Users\chris\source\repos\C-Sharp Practice 2\C-Sharp Practice 2\obj\Debug\net5.0\C-Sharp Practice 2.csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\C-Sharp Practice 2\C-Sharp Practice 2\bin\Debug\net5.0\C-Sharp Practice 2.exe
+C:\Users\chris\source\repos\C-Sharp Practice 2\C-Sharp Practice 2\bin\Debug\net5.0\C-Sharp Practice 2.deps.json
+C:\Users\chris\source\repos\C-Sharp Practice 2\C-Sharp Practice 2\bin\Debug\net5.0\C-Sharp Practice 2.runtimeconfig.json
+C:\Users\chris\source\repos\C-Sharp Practice 2\C-Sharp Practice 2\bin\Debug\net5.0\C-Sharp Practice 2.runtimeconfig.dev.json
+C:\Users\chris\source\repos\C-Sharp Practice 2\C-Sharp Practice 2\bin\Debug\net5.0\C-Sharp Practice 2.dll
+C:\Users\chris\source\repos\C-Sharp Practice 2\C-Sharp Practice 2\bin\Debug\net5.0\ref\C-Sharp Practice 2.dll
+C:\Users\chris\source\repos\C-Sharp Practice 2\C-Sharp Practice 2\bin\Debug\net5.0\C-Sharp Practice 2.pdb
+C:\Users\chris\source\repos\C-Sharp Practice 2\C-Sharp Practice 2\obj\Debug\net5.0\C-Sharp Practice 2.dll
+C:\Users\chris\source\repos\C-Sharp Practice 2\C-Sharp Practice 2\obj\Debug\net5.0\ref\C-Sharp Practice 2.dll
+C:\Users\chris\source\repos\C-Sharp Practice 2\C-Sharp Practice 2\obj\Debug\net5.0\C-Sharp Practice 2.pdb
+C:\Users\chris\source\repos\C-Sharp Practice 2\C-Sharp Practice 2\obj\Debug\net5.0\C-Sharp Practice 2.genruntimeconfig.cache
