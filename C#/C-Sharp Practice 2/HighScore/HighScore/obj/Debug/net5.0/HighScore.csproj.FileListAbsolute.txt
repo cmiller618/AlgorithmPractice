@@ -1,0 +1,16 @@
+C:\Users\chris\Documents\count\C#\C-Sharp Practice 2\HighScore\HighScore\bin\Debug\net5.0\HighScore.exe
+C:\Users\chris\Documents\count\C#\C-Sharp Practice 2\HighScore\HighScore\bin\Debug\net5.0\HighScore.deps.json
+C:\Users\chris\Documents\count\C#\C-Sharp Practice 2\HighScore\HighScore\bin\Debug\net5.0\HighScore.runtimeconfig.json
+C:\Users\chris\Documents\count\C#\C-Sharp Practice 2\HighScore\HighScore\bin\Debug\net5.0\HighScore.runtimeconfig.dev.json
+C:\Users\chris\Documents\count\C#\C-Sharp Practice 2\HighScore\HighScore\bin\Debug\net5.0\HighScore.dll
+C:\Users\chris\Documents\count\C#\C-Sharp Practice 2\HighScore\HighScore\bin\Debug\net5.0\ref\HighScore.dll
+C:\Users\chris\Documents\count\C#\C-Sharp Practice 2\HighScore\HighScore\bin\Debug\net5.0\HighScore.pdb
+C:\Users\chris\Documents\count\C#\C-Sharp Practice 2\HighScore\HighScore\obj\Debug\net5.0\HighScore.csproj.AssemblyReference.cache
+C:\Users\chris\Documents\count\C#\C-Sharp Practice 2\HighScore\HighScore\obj\Debug\net5.0\HighScore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chris\Documents\count\C#\C-Sharp Practice 2\HighScore\HighScore\obj\Debug\net5.0\HighScore.AssemblyInfoInputs.cache
+C:\Users\chris\Documents\count\C#\C-Sharp Practice 2\HighScore\HighScore\obj\Debug\net5.0\HighScore.AssemblyInfo.cs
+C:\Users\chris\Documents\count\C#\C-Sharp Practice 2\HighScore\HighScore\obj\Debug\net5.0\HighScore.csproj.CoreCompileInputs.cache
+C:\Users\chris\Documents\count\C#\C-Sharp Practice 2\HighScore\HighScore\obj\Debug\net5.0\HighScore.dll
+C:\Users\chris\Documents\count\C#\C-Sharp Practice 2\HighScore\HighScore\obj\Debug\net5.0\ref\HighScore.dll
+C:\Users\chris\Documents\count\C#\C-Sharp Practice 2\HighScore\HighScore\obj\Debug\net5.0\HighScore.pdb
+C:\Users\chris\Documents\count\C#\C-Sharp Practice 2\HighScore\HighScore\obj\Debug\net5.0\HighScore.genruntimeconfig.cache
